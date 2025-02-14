@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(233, 230, 230);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.main h1{
+    font-family: "Pirata One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8em;
+}
+
+.main{
+    padding-top: 10%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.buttons2{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 0 auto;
+    padding-left: 60px;
+}
+
+#button{
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: black;
+    text-align: center;
+}
+
+#button:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(158, 158, 158);
+    text-align: center;
+}
+
+.buttons a{
+    text-decoration: none;
+}
+
+.buttons2 a{
+    text-decoration: none;
+}
+
+.personagens h1{
+    font-family: "Pirata One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8em;
+}
+
+.personagens{
+    padding-top: 10%;
+    text-align: center;
+    margin: 0 auto;
+    height: 600px;
+}
+
+.fichas{
+    background-color: rgb(223, 169, 191);
+}
+
+.ficha{
+    padding: 40px;
+    display: flex;
+    display: none;
+}
+
+.imagem{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.imagem img{
+    width: 100%;
+}
+
+.categoria{
+   
+}
+
+.categoria h2{
+    font-family: "Pirata One", serif;
+    font-size: 1.6em;
+    color: rgb(107, 10, 67);
+    margin: 0;
+}
+
+.campo p{
+    padding: 10px 15px;
+    font-size: 1.1em;
+    margin-top: 10px;
+    border: 1px solid rgb(107, 10, 67);;
+}
